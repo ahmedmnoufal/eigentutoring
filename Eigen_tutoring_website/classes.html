@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Tutoring — Classes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="brand">Your Tutoring</div>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a class="active" href="classes.html">Classes</a>
+      <a href="how-it-works.html">How it Works</a>
+      <a href="about.html">About</a>
+      <a class="btn" href="classes.html">Book</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="kicker">Available classes</div>
+    <h1>Choose a class and reserve your spot.</h1>
+    <p>Below are sample offerings — edit these to match your subjects, pricing, and schedule.</p>
+  </section>
+
+  <section class="section">
+    <div class="grid-3">
+      <div class="card">
+        <strong>Algebra I — 1:1</strong>
+        <p>Grade 8–10 • 60 min • Online/In-person</p>
+        <p><span class="badge">$70/session</span></p>
+        <a class="btn" href="how-it-works.html">How to enroll</a>
+      </div>
+      <div class="card">
+        <strong>Geometry — Small Group</strong>
+        <p>Grade 9–11 • 75 min • Online</p>
+        <p><span class="badge">$35/student</span></p>
+        <a class="btn" href="how-it-works.html">How to enroll</a>
+      </div>
+      <div class="card">
+        <strong>SAT Math Prep</strong>
+        <p>10 sessions • Practice tests • Strategy</p>
+        <p><span class="badge">$399 package</span></p>
+        <a class="btn" href="how-it-works.html">How to enroll</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="card">
+      <strong>Need a different subject?</strong>
+      <p>Send a message with the grade level and topic, and we’ll suggest a plan.</p>
+      <div class="row">
+        <a class="btn secondary" href="about.html">Meet the tutor</a>
+        <a class="btn" href="mailto:you@example.com">Email us</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer">
+    © <span id="year"></span> Your Tutoring
+  </div>
+</main>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

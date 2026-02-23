@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Tutoring — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="brand">Your Tutoring</div>
+    <nav class="menu">
+      <a class="active" href="index.html">Home</a>
+      <a href="classes.html">Classes</a>
+      <a href="how-it-works.html">How it Works</a>
+      <a href="about.html">About</a>
+      <a class="btn" href="classes.html">View Classes</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <div class="kicker">Personalized tutoring</div>
+        <h1>Help your child master the subject — and feel confident doing it.</h1>
+        <p>1:1 and small-group tutoring for middle school, high school, and test prep. Online or in-person options available.</p>
+        <div class="row" style="margin-top:14px">
+          <a class="btn" href="classes.html">See available classes</a>
+          <a class="btn secondary" href="how-it-works.html">How it works</a>
+          <span class="badge">Free 15-minute consult</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="kicker">Next openings</div>
+        <p style="margin:8px 0 14px">Popular times fill fast. Check the schedule and reserve a spot.</p>
+        <div class="grid-3" style="grid-template-columns:1fr; gap:10px">
+          <div class="card" style="padding:12px">
+            <strong>Math (Algebra/Geometry)</strong><br/>
+            <span style="color:var(--muted)">Mon–Thu evenings</span>
+          </div>
+          <div class="card" style="padding:12px">
+            <strong>Science (Chem/Bio)</strong><br/>
+            <span style="color:var(--muted)">Weekend slots available</span>
+          </div>
+          <a class="btn" href="classes.html">Browse all</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="kicker">Why families choose us</div>
+    <div class="grid-3" style="margin-top:12px">
+      <div class="card">
+        <strong>Clear plan</strong>
+        <p>We start with goals and a quick baseline so every session has a purpose.</p>
+      </div>
+      <div class="card">
+        <strong>Real progress</strong>
+        <p>Weekly tracking and check-ins to keep momentum and build confidence.</p>
+      </div>
+      <div class="card">
+        <strong>Flexible format</strong>
+        <p>Online or in-person, 1:1 or small group — whatever fits your schedule.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="kicker">Testimonials</div>
+    <div class="grid-3" style="margin-top:12px">
+      <div class="card">
+        <p>“My son went from struggling to getting A’s in Algebra.”</p>
+        <span class="badge">Parent</span>
+      </div>
+      <div class="card">
+        <p>“The sessions were structured and easy to follow. Huge confidence boost.”</p>
+        <span class="badge">Student</span>
+      </div>
+      <div class="card">
+        <p>“Great communication and clear progress updates.”</p>
+        <span class="badge">Parent</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer">
+    © <span id="year"></span> Your Tutoring • <a href="about.html">About</a>
+  </div>
+</main>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

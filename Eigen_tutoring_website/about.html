@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Tutoring — About</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <div class="brand">Your Tutoring</div>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="classes.html">Classes</a>
+      <a href="how-it-works.html">How it Works</a>
+      <a class="active" href="about.html">About</a>
+      <a class="btn" href="classes.html">Book</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="kicker">About</div>
+    <h1>Hi, I’m [Your Name].</h1>
+    <p>Write a short credibility statement: years tutoring, subjects, student outcomes, teaching style.</p>
+  </section>
+
+  <section class="section">
+    <div class="grid-3">
+      <div class="card">
+        <strong>Experience</strong>
+        <p>e.g., “5+ years tutoring Math & Science, grades 6–12.”</p>
+      </div>
+      <div class="card">
+        <strong>Approach</strong>
+        <p>e.g., “Concept first, then practice. Clear steps, no guessing.”</p>
+      </div>
+      <div class="card">
+        <strong>Results</strong>
+        <p>e.g., “Improved grades, test scores, and confidence.”</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="card">
+      <strong>Contact</strong>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>Phone: (555) 555-5555</p>
+    </div>
+  </section>
+
+  <div class="footer">© <span id="year"></span> Your Tutoring</div>
+</main>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
